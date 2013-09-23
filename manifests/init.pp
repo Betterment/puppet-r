@@ -7,10 +7,10 @@
 # Uses http://cran.rstudio.com as source as this should redirect to a local mirror.
 class r {
 
-  package { 'R_2_15_3':
+  package { 'R_3_0_1':
     provider => 'apple',
     ensure => present,
-    source   => 'http://cran.rstudio.com/bin/macosx/R-2.15.3.pkg',
+    source   => 'http://cran.rstudio.com/bin/macosx/R-3.0.1.pkg'
   }
 
 }
