@@ -4,7 +4,7 @@ Install [R](http://www.r-project.org/), a software environment for statistical c
 
 ## Usage
 
-Install version 2.15.3 as DMG from CRAN:
+Install version 3.0.1 from CRAN:
 
 ```puppet
 include r
